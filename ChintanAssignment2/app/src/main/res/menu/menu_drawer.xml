@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_gradeEntry"
+            android:checked="true"
+            android:icon="@drawable/ic_star_24dp"
+            android:title="@string/gradeEntry" />
+        <item
+            android:id="@+id/drawer_viewGrades"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/viewGrades" />
+        <item
+            android:id="@+id/drawer_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/search" />
+    </group>
+</menu>
